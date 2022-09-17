@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ngxsCheckComponent } from './before-login.component';
+import { NgxsCheckComponent } from './ngxs-check/ngxs-check.component';
 
-const routes: Routes = [{ path: '', component: ngxsCheckComponent }];
+const routes: Routes = [{ path: '', component: NgxsCheckComponent }];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class BeforeLoginRoutingModule { }
+export class AngularngxsRoutingModule { }

@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BeforeLoginComponent } from './before-login.component';
+import { PureTaskListComponent } from './pure-task-list.component';
 
-describe('BeforeLoginComponent', () => {
-  let component: BeforeLoginComponent;
-  let fixture: ComponentFixture<BeforeLoginComponent>;
+describe('PureTaskListComponent', () => {
+  let component: PureTaskListComponent;
+  let fixture: ComponentFixture<PureTaskListComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BeforeLoginComponent ]
+      declarations: [ PureTaskListComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(BeforeLoginComponent);
+    fixture = TestBed.createComponent(PureTaskListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
